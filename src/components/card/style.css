@@ -1,0 +1,25 @@
+.card {
+    height: 100px;
+    width: 50%;
+
+    background-color: #735bf2;
+    color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+
+    transition: 0.2s;
+}
+
+.card strong {
+    font-size: 18px;
+}
+
+.card:hover{
+    transform: scale(105%);
+    filter: brightness(1.2);
+}
